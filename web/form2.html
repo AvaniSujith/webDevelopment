@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Table</title>
+   <link rel="stylesheet" href="form2.css"/>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td><label for="firstname">FIRST NAME</label></td>
+                <td><input type="text" id="firstname" name="firstname" maxlength="30" required></td>
+                <td>(max 30 characters a-z and A-Z)</td>
+            </tr>
+            <tr>
+                <td><label for="lastname">LAST NAME</label></td>
+                <td><input type="text" id="lastname" name="lastname" maxlength="30" required></td>
+                <td>(max 30 characters a-z and A-Z)</td>
+            </tr>
+            <tr>
+                <td>DATE OF BIRTH</td>
+                <td colspan="2">
+                    <select name="day" required>
+                        <option value="day">Day</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                       </select>
+                    <select name="month" required>
+                        <option value="">Month</option>
+                        <option value="january">January</option>
+                        <option value="February">February</option>
+                        <option value="March">March</option>
+                        <option value="April">April</option>
+                        <option value="may">May</option>
+                    </select>
+                    <select name="year" required>
+                        <option value="year">Year</option>
+                        <option value="1999">1999</option>
+                        <option value="2000">2000</option>
+                        <option value="2001">2001</option>
+                        <option value="2002">2002</option>
+                        
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="email">EMAIL ID</label></td>
+                <td colspan="2"><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="mobile">MOBILE NUMBER</label></td>
+                <td colspan="2"><input type="number" id="mobile" name="mobile" maxlength="10" required></td>
+                <td>(10 digit number)</td>
+            </tr>
+            <tr>
+                <td>GENDER</td>
+                <td colspan="2">
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female" required>
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="address">ADDRESS</label></td>
+                <td colspan="2"><textarea id="address" name="address" rows="4" maxlength="30" required></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="city">CITY</label></td>
+                <td colspan="2"><input type="text" id="city" name="city" maxlength="30" required></td>
+                <td>(max 30 characters a-z and A-Z)</td>
+            </tr>
+            <tr>
+                <td><label for="pincode">PIN CODE</label></td>
+                <td colspan="2"><input type="number" id="pincode" name="pincode" maxlength="6" required></td>
+                <td>(6 digit number)</td>
+            </tr>
+            <tr>
+                <td><label for="state">STATE</label></td>
+                <td colspan="2"><input type="text" id="state" name="state" maxlength="30" required></td>
+                <td>(max 30 characters a-z and A-Z)</td>
+            </tr>
+            <tr>
+                <td><label for="country">COUNTRY</label></td>
+                <td colspan="2">
+                    <select id="country" name="country" required>
+                        <option value="India">India</option>
+                        <option value="china">China</option>
+                        <option value="pakisthan">Pakisthan</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>HOBBIES</td>
+                <td colspan="2">
+                    <input type="checkbox" id="drawing" name="hobbies" value="drawing">
+                    <label for="drawing">Drawing</label>
+                    <input type="checkbox" id="singing" name="hobbies" value="singing">
+                    <label for="singing">Singing</label>
+                    <input type="checkbox" id="dancing" name="hobbies" value="dancing">
+                    <label for="dancing">Dancing</label>
+                    <input type="checkbox" id="sketching" name="hobbies" value="sketching">
+                    <label for="sketching">Sketching</label>
+                    <input type="checkbox" id="others" name="hobbies" value="others">
+                    <label for="others">Others</label>
+                    <input type="text" id="otherHobbies" name="otherHobbies" maxlength="30">
+                </td>
+            </tr>
+            <tr>
+                <td>QUALIFICATION</td>
+                <td colspan="2">
+                    <table border="1" style="width: 100%; border-collapse: collapse;">
+                        <tr>
+                            <th>Sl.No.</th>
+                            <th>Examination</th>
+                            <th>Board</th>
+                            <th>Percentage</th>
+                            <th>Year of Passing</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Class X</td>
+                            <td><input type="text" name="board1" maxlength="10"></td>
+                            <td><input type="text" name="percentage1" maxlength="5"></td>
+                            <td><input type="text" name="year1" maxlength="4"></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Class XII</td>
+                            <td><input type="text" name="board2" maxlength="10"></td>
+                            <td><input type="text" name="percentage2" maxlength="5"></td>
+                            <td><input type="text" name="year2" maxlength="4"></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Graduation</td>
+                            <td><input type="text" name="board3" maxlength="10"></td>
+                            <td><input type="text" name="percentage3" maxlength="5"></td>
+                            <td><input type="text" name="year3" maxlength="4"></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Masters</td>
+                            <td><input type="text" name="board4" maxlength="10"></td>
+                            <td><input type="text" name="percentage4" maxlength="5"></td>
+                            <td><input type="text" name="year4" maxlength="4"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>COURSES APPLIED FOR</td>
+                <td colspan="2">
+                    <input type="radio" id="php" name="course" value="php">
+                    <label for="php">Php</label>
+                    <input type="radio" id="python" name="course" value="python">
+                    <label for="python">Python</label>
+                    <input type="radio" id="java" name="course" value="java">
+                    <label for="java">Java</label>
+                    <input type="radio" id="digitalMarketing" name="course" value="digitalMarketing">
+                    <label for="digitalMarketing">Digital Marketing</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: center;">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Blog</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .hero {
+      background-image: url(download\ \(1\).jpeg);
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+    }
+    .bio {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Blog</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="home" class="hero">
+    <h1>Welcome to My Blog</h1>
+  </div>
+
+  <div id="blog" class="container my-5">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Blog Post Title</h5>
+            <p class="card-text">This is a short excerpt from the blog post. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis provident eveniet aperiam facere placeat molestiae voluptas officiis, nemo non quod autem, quibusdam eos consectetur velit unde rerum quia optio aliquid eum. Quaerat, architecto dicta temporibus culpa harum aut deleniti quam dolores, iure incidunt alias enim quasi sapiente pariatur molestiae! Omnis odio facilis, voluptatum blanditiis cumque eius tempora voluptatem dignissimos, tenetur expedita necessitatibus doloremque, esse a eveniet. Quisquam, fugiat modi.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+          <div class="row">
+            <div class="col-lg-8">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <h5 class="card-title">Blog Post Title</h5>
+                  <p class="card-text">This is a short excerpt from the blog post. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error facilis, vitae temporibus doloremque amet quisquam ipsa maiores minima, perspiciatis consequatur libero animi, minus obcaecati illo esse assumenda reiciendis facere ex optio et explicabo totam culpa voluptate tenetur. Aspernatur esse voluptatum laborum officiis ratione odio! Repellat voluptatem autem magni dolorem repudiandae, commodi architecto vitae sed a officiis minus, voluptate temporibus? Perferendis!</p>
+                  <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+                <div class="row">
+                  <div class="col-lg-8">
+                    <div class="card mb-3">
+                      <div class="card-body">
+                        <h5 class="card-title">Blog Post Title</h5>
+                        <p class="card-text">This is a short excerpt from the blog post. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ratione quibusdam in suscipit officiis vel, molestiae adipisci voluptate maiores repellat voluptatem labore odit repudiandae fuga incidunt quam, eligendi necessitatibus. Accusantium, explicabo. Magnam est dolor nam numquam animi, rerum quasi inventore pariatur, veritatis reiciendis placeat nobis asperiores blanditiis voluptas voluptatibus quaerat corporis hic a incidunt harum eum natus. Eum deleniti voluptas sit odit neque quia animi tenetur officiis dignissimos qui!</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                      </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="sidebar">
+          <h4>Categories</h4>
+          <ul class="list-group mb-3">
+            <li class="list-group-item">Category 1</li>
+            <li class="list-group-item">Category 2</li>
+            <li class="list-group-item">Category 3</li>
+          </ul>
+          <h4>Recent Posts</h4>
+          <ul class="list-group mb-3">
+            <li class="list-group-item">Post 1</li>
+            <li class="list-group-item">Post 2</li>
+            <li class="list-group-item">Post 3</li>
+          </ul>
+          <h4>Follow Me</h4>
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">Facebook</a></li>
+            <li class="list-inline-item"><a href="#">Twitter</a></li>
+            <li class="list-inline-item"><a href="#">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="about" class="container my-5">
+    <div class="bio">
+      <img src="profile.jpg" class="rounded-circle mb-3" alt="Blogger's photo">
+      <h2>Blogger's Name</h2>
+      <p>This is a short bio about the blogger. It includes information about their interests, background, and what they write about.</p>
+    </div>
+  </div>
+
+  <div id="contact" class="container my-5">
+    <h2>Contact Me</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea class="form-control" id="message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send</button>
+    </form>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

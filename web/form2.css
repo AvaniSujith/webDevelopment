@@ -1,0 +1,14 @@
+ input[type="text"]{
+    color:rgb(42, 165, 67);
+}
+body{
+    background-color: aquamarine;
+    
+}
+input[type="email"]{
+    color: blueviolet;
+   text-decoration: line-through;
+}
+input[type="number"]{
+    color: yellow;
+}

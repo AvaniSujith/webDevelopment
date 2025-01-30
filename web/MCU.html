@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+		body{
+			margin: 0px;
+			padding: 0px;
+			background-color: whitesmoke;
+			font-family: helvetica;
+		}
+		
+		#navi{
+			width: 100%;
+			height: 10%;
+			position: relative;
+			z-index: 1;
+		}
+        
+        .logo img{
+        	height: 80px;
+        	width: 180px;
+        }
+
+        nav{
+        	display: flex;
+        	justify-content: space-around;
+        	align-items: center;
+        	position: fixed;
+        	top: 0;
+        	left: 0;
+        	width: 100%;
+        	background-color: dimgrey;
+        }
+
+        ul{
+        	list-style-type: none;
+        	display: flex;
+        }
+
+        .menu li a{
+        	height: 40px;
+        	line-height: 43px;
+        	margin: 3px;
+        	padding: 0px 22px;
+        	display: flex;
+        	font-size: 18px;
+        	text-transform: uppercase;
+        	font-weight: 500;
+        	letter-spacing: 0.5px;
+        	font-family: sans-serif;
+        	color: whitesmoke;
+        }
+
+        .menu li a:hover{
+        	background-color: red;
+        	color: whitesmoke;
+        	border-radius: 5px;
+        	box-shadow: 2px 2px 3px whitesmoke;
+        }
+
+        a{
+        	text-decoration: none;
+        }
+
+        .intro{
+        	margin-top: 50px;
+        	margin-left: 10px;
+        	margin-right: 10px;
+        	color: black;
+        }
+        
+
+        #intro1{
+        	margin-top: 150px;
+        	margin-left: 10%;
+        	margin-right: 10%;
+        }
+
+        .button{
+        	border-radius: 5px;
+        }
+
+        
+
+        .button:link, .button:visited{
+        	background-color: whitesmoke;
+        	color: black;
+        	border: 2px solid darkred;
+        	padding: 5px;
+        	text-align: center;
+        	display: inline-block;
+        	text-decoration: none;
+        	margin-left: 10px;
+        }
+
+        .button:hover, .button:active{
+        	background-color: red;
+        	color: whitesmoke;
+        }
+
+        .row{
+        	display: flex;
+        	flex-wrap: wrap;
+        	justify-content: space-evenly;
+        }
+
+        .container{
+        	display: flex;
+        	margin: 20px;
+        	align-items: center;
+        	max-width: 46%;
+        	max-height: 46%;
+        	background-color: dimgrey;
+        	border-radius: 5%;
+
+        }
+
+        .container:hover{
+        	transform: scale(1.05);
+        	box-shadow: 0 0 10px;
+
+        }
+
+        .image{
+        	padding-left: 5%;
+        	max-width: 50%;
+        	max-height: 75%;
+        }
+
+        .avenge{
+        	padding: 5%;
+        	font-size: 90%;
+        	color: whitesmoke;
+        }
+
+        block1{
+        	margin-left: 10%;
+        	margin-right: 10%;
+
+        }
+
+        table{
+        	font-family: arial;
+        	border-collapse: no-collapse;
+        	width: 100%;
+        }
+
+        td, th{
+        	border: 5px solid darkred;
+        	text-align: left;
+        	padding: 18px;
+        	color: black;
+        	font-size: 1.2em;
+        }
+
+        th{
+        	text-align: center;
+        }
+	</style>
+</head>
+<body>
+	<section id="navi">
+		<nav>
+			<a class="logo" href="#"><img src="logo.jpg"></a>
+			<span></span><span></span><span></span>
+			<ul class="menu">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Comics</a></li>
+				<li><a href="#">Characters</a></li>
+				<li><a href="#">Movies</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <section class="intro" id="intro1">
+    <h1>The Marvel Cinematic Universe</h1>
+    <p>The Marvel Cinematic Universe (MCU) is an American media franchise and shared universe centered on a series of superhero films produced by Marvel Studios. The films are based on characters that appear in American comic books published by Marvel Comics. The franchise also includes television series, short films, digital series, and literature. The shared universe, much like the original Marvel Universe in comic books, was established by crossing over common plot elements, settings, cast, and characters.</p>
+
+    <p>The first MCU film is Iron Man (2008), which began the films of Phase One culminating in the crossover film The Avengers (2012). Phase Two began with Iron Man 3 (2013) and concluded with Ant-Man (2015). Phase Three began with Captain America: Civil War (2016) and concluded with Spider-Man: Far From Home (2019). The first three phases in the franchise are collectively known as "The Infinity Saga". The films of Phase Four began with Black Widow (2021).</p>
+
+    
+    <p>For more info click this button <a class="button" href="https://en.wikipedia.org/wiki/Marvel_Cinematic_Universe" target="_blank">The Marvel Cinematic Universe</a></p>
+</section>
+
+<section class="intro">
+	<h1 id="comics">Marvel Comics</h1>
+	<p>Marvel Comics is the brand name and primary imprint of Marvel Worldwide Inc., formerly Marvel Publishing, Inc. and Marvel Comics Group, a publisher of American comic books and related media. In 2009, The Walt Disney Company acquired Marvel Entertainment, Marvel Worldwide's parent company.</p>
+
+    <p>Marvel was started in 1939 by Martin Goodman as Timely Comics,[3] and by 1951 had generally become known as Atlas Comics. The Marvel era began in 1961, the year that the company launched The Fantastic Four and other superhero titles created by Stan Lee, Jack Kirby, Steve Ditko and many others. The Marvel brand, which had been used over the years, was solidified as the company's primary brand.</p>
+     <p>For more info click this button <a class="button" href="https://en.wikipedia.org/wiki/Marvel_Comics" target="_blank">Marvel Comics</a></p>
+</section>
+
+<div class="block">
+	<h1 id="characters">Marvel Characters</h1>
+	<div class="row">
+		<div class="container">
+			<img class="image" src="captain.jpg">
+			<div class="avenge">
+				<h3>Captain America</h3>
+				<p>Captain America is a superhero appearing in American comic books published by Marvel Comics. Created by cartoonists Joe Simon and Jack Kirby, the character first appeared in Captain America Comics #1 (cover dated March 1941) from Timely Comics, a predecessor of Marvel Comics. Captain America was designed as a patriotic supersoldier who often fought the Axis powers of World War II and was Timely Comics' most popular character during the wartime period. The popularity of superheroes waned following the war, and the Captain America comic book was discontinued in 1950, with a short-lived revival in 1953. Since Marvel Comics revived the character in 1964, Captain America has remained in publication.</p>
+				<p>For more info click this button <a class="button" href="https://en.wikipedia.org/wiki/Captain_America" target="_blank">Captain America</a></p>
+			</div>
+		</div>
+				<div class="container">
+			<img class="image" src="blackwidow.jpg">
+			<div class="avenge">
+				<h3>Blackwidow</h3>
+				<p>Black Widow is a 2021 American superhero film based on Marvel Comics featuring the character of the same name. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the 24th film in the Marvel Cinematic Universe (MCU). The film was directed by Cate Shortland from a screenplay by Eric Pearson, and stars Scarlett Johansson as Natasha Romanoff / Black Widow alongside Florence Pugh, David Harbour, O-T Fagbenle, Olga Kurylenko, William Hurt, Ray Winstone, and Rachel Weisz. Set after the events of Captain America: Civil War (2016), the film sees Romanoff on the run and forced to confront her past.
+
+</p>
+				<p>For more info click this button <a class="button" href="https://en.wikipedia.org/wiki/Black_Widow_(2021_film)" target="_blank">blackwidow</a></p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="block">
+	<h1 id="characters">Marvel Characters</h1>
+	<div class="row">
+		<div class="container">
+			<img class="image" src="hulk.jpg">
+			<div class="avenge">
+				<h3>Hulk</h3>
+				<p>The Hulk is a fictional superhero appearing in publications by the American publisher Marvel Comics. Created by writer Stan Lee and artist Jack Kirby, the character first appeared in the debut issue of The Incredible Hulk (May 1962). In his comic book appearances, the character, who has dissociative identity disorder (DID), is primarily represented by the alter Hulk, a green-skinned, hulking and muscular humanoid possessing a limitless degree of physical strength, and the alter Dr. Robert Bruce Banner, a physically weak, socially withdrawn, and emotionally reserved physicist, both of whom typically resent each other.</p>
+				<p>For more info click this button <a class="button" href="https://en.wikipedia.org/wiki/Hulk" target="_blank">Hulk</a></p>
+			</div>
+		</div>
+				<div class="container">
+			<img class="image" src="batman.jpg">
+			<div class="avenge">
+				<h3>Batman</h3>
+				<p>The Batman is a 2022 American superhero film based on the DC Comics character Batman. Produced by Warner Bros. Pictures, DC Films, 6th & Idaho, and Dylan Clark Productions, and distributed by Warner Bros. Pictures, it is a reboot of the Batman film franchise. The film was directed by Matt Reeves, who wrote the screenplay with Peter Craig. It stars Robert Pattinson as Bruce Wayne / Batman alongside Zoë Kravitz, Paul Dano, Jeffrey Wright, John Turturro, Peter Sarsgaard, Andy Serkis, and Colin Farrell. The film sees Batman, who has been fighting crime in Gotham City for two years, uncover corruption while pursuing the Riddler (Dano), a serial killer who targets Gotham's elite.</p>
+				<p>For more info click this button <a class="button" href="https://en.wikipedia.org/wiki/The_Batman_(film)" target="_blank">blackwidow</a></p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<section class="block1">
+	<h1 id="movies">Marvel Movies</h1>
+	<table>
+		<thead>
+			<tr>
+				<th>Movie Name</th>
+				<th>Year of Release</th>
+			</tr>
+			
+		</thead>
+		<tbody>
+			<tr>
+				<td>Iron Man</td>	
+				<td>May 2, 2008</td>
+			</tr>
+			<tr>
+				<td>The incredible Hulk</td>
+				<td>June 13, 2008</td>
+			</tr>
+			<tr>
+				<td>Iron Man 2</td>
+				<td>May 7,2010</td>
+			</tr>
+		</tbody>
+	</table>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list</title>
+   
+</head>
+<body>
+    <style>
+        ol{
+            list-style-type: lower-roman;
+        }
+        ul{
+            list-style-type: circle;
+        }
+    </style>
+    
+  <ol type="I">
+        <li> List Item 1</li>
+       <ol type="a">
+        <li> Nested Item 1.1</li>
+        <li> Nested Item 1.2</li>
+       </ol>
+       <li> List Item 2</li>
+       <ol type="1">
+        <li> Nested Item 2.1</li>
+        <li> Nested Item 2.2</li>
+        <ul type="circle">
+            <li> Nested Item 2.2-1</li>
+            <li> Nested Item 2.2-2</li>
+            <ul>
+                <li>Nested Item 2.2.2.1</li>
+                <li>Nested Item 2.2.2.2</li>
+            </ul>
+            <li>Nested Item 2.2.3</li>
+        </ul>
+        <li>Nested Item 2.3</li>
+       </ol>
+       <li>List Item 3</li>
+    </ol>
+    
+<hr>
+<table border="">
+    <tr>
+        <td>Column 1</td>
+        <td>Column 2</td>
+        <td>Column 3</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Row 1 Cell 1</td>
+        <td>Row 1 Cell 2</td>
+        <td>Row 1 Cell 3</td>
+    </tr>
+    <tr>
+        <td>Row 2 Cell 2</td>
+        <td>Row 2 Cell 3</td>
+    </tr>
+    <tr>
+        <td colspan="3"> Row 3 Cell 4</td>
+    </tr>
+</table>
+</body>
+</html>

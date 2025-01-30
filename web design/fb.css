@@ -1,0 +1,21 @@
+.header{
+ background: #3b5998; 
+ width: 100%;
+ height: 85px;
+}
+body{
+    margin: 0;
+}
+.logo{
+    width: 50%;
+    padding-top: 32px;
+}
+
+.logo-text{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: helvetica Neue, Helvetica, Arial, sans-serif; 
+    margin-left: 170px;
+}

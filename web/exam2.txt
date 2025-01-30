@@ -1,0 +1,26 @@
+1.  <img src="" alt="">
+ alt is used as the attribute to provide alternative text for an image.
+2. <div> tag is used to make different section in which the tags are grouped together. The attributes are given easily.
+ <span > tag is used for providing attributes for a section of elements. eg. <p>hello<span> heyy<span> <p> , here the element inside span tag can be given separate attributes and styling.
+3. font-weight:bold;
+4.display:flex; property. or the col-sm/md-(no. of division) for division of screen as display:grid & grid-template-coloumn/row:(division)
+5. <div class="container">
+    <div class="row">
+        <div class="col-md-6>
+           <img src="">
+         </div>
+        <div class="col-md-6>
+           <p> explanation</p>
+        </div>
+    </div>
+</div>
+6. .container means container changes size differently to provide responsiveness but not for entire width
+  .container-fluid means container changes size for entire width to ensure responsiveness.
+7. * element/tag selector
+   * class selector
+   * ID selector
+   * Universal selector
+   * group selector
+8. table-responsive
+9. img-fluid
+10. container class is used to create a group of tags, elements and attributes in a container to change and achieve responsiveness depending on size.
